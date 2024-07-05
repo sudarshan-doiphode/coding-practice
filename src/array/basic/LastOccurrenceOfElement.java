@@ -1,23 +1,22 @@
 package array.basic;
 
-public class FirstOccurrenceOfElement {
+public class LastOccurrenceOfElement {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 4, 4, 51, 1};
-        int element = 1;
-        int index = firstOccurrence(arr, element);
+        int[] arr = {1, 2, 3, 1, 1, 0};
+        int element = 100;
+        int index = lastOccurrenceOfElement(arr, element);
         if (index != -1) {
-            System.out.println(element + " first occurs at index " + index);
+            System.out.println(element + " last occurs at index " + index);
         } else {
             System.out.println("Element does not exist 👎");
         }
     }
 
-    private static int firstOccurrence(int[] arr, int element) {
+    private static int lastOccurrenceOfElement(int[] arr, int element) {
         int index = -1;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == element) {
                 index = i;
-                break;
             }
         }
         return index;
