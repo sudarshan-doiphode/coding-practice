@@ -20,6 +20,7 @@ public class FactorsOfNumber {
     }
 }
 
+
 /*Initialize an empty list to store factors.
 Iterate from 1 to the square root of the number.
 For each i, check if number % i == 0. If true, i is a factor.
