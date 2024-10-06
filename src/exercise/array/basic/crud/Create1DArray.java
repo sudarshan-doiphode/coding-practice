@@ -19,6 +19,8 @@ public class Create1DArray {
         }
         
         System.out.println("********************************************");
+        System.out.println("********************************************");
+        System.out.println("********************************************");
 
         /*Approach 2*/
         Scanner scanner = new Scanner(System.in);
