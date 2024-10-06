@@ -1,5 +1,6 @@
 package exercise.array.binary_search;
 
+//Return the index of target from the sorted array which has distinct elements
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
