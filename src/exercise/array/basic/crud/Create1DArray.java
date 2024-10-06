@@ -11,10 +11,11 @@ public class Create1DArray {
             System.out.print(arr[i] + " ");
         }
         System.out.println("********************************************");
+        System.out.println("********************************************");
+        System.out.println("********************************************");
 
-        // For Each : 
-        for(int element: arr){
-            System.out.print(element +"  ");
+        for (int element: arr){
+            System.out.print(element + " ");
         }
         
         System.out.println("********************************************");
@@ -30,7 +31,7 @@ public class Create1DArray {
             userArray[i] = scanner.nextInt();
         }
 
-        System.out.println("********************************************");
+        System.out.println("*******************************");
 
         Arrays.stream(userArray).forEach(value -> System.out.print(value+ " "));
 
