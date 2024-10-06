@@ -12,6 +12,13 @@ public class Create1DArray {
         }
         System.out.println("********************************************");
 
+        // For Each : 
+        for(int element: arr){
+            System.out.print(element +"  ");
+        }
+        
+        System.out.println("********************************************");
+
         /*Approach 2*/
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the size of the array :" );
@@ -23,7 +30,7 @@ public class Create1DArray {
             userArray[i] = scanner.nextInt();
         }
 
-        System.out.println("*******************************");
+        System.out.println("********************************************");
 
         Arrays.stream(userArray).forEach(value -> System.out.print(value+ " "));
 
