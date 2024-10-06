@@ -10,17 +10,17 @@ public class Create1DArray {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-        System.out.println("********************************************");
-        System.out.println("********************************************");
-        System.out.println("********************************************");
+//        System.out.println("********************************************");
+//        System.out.println("********************************************");
+//        System.out.println("********************************************");
 
         for (int element: arr){
             System.out.print(element + " ");
         }
-        
-        System.out.println("********************************************");
-        System.out.println("********************************************");
-        System.out.println("********************************************");
+//
+//        System.out.println("********************************************");
+//        System.out.println("********************************************");
+//        System.out.println("********************************************");
 
         /*Approach 2*/
         Scanner scanner = new Scanner(System.in);
