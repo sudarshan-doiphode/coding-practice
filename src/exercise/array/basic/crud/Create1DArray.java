@@ -17,10 +17,9 @@ public class Create1DArray {
         for (int element: arr){
             System.out.print(element + " ");
         }
+        
+        System.out.println("********************************************");
 
-        System.out.println("********************************************");
-        System.out.println("********************************************");
-        System.out.println("********************************************");
         /*Approach 2*/
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the size of the array :" );
